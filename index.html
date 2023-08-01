@@ -97,7 +97,7 @@
                     <i class="fas fa-chevron-circle-right slide-next"></i>
                 </div>
             </div>
-            <ul class="class-list">
+            <ul class="class-list" data-position="0">
                 <li class="class-card">
                     <a href="https://teo-you.tistory.com/" target="_blank">
                         <img src="https://media.istockphoto.com/id/1440246683/photo/blog-word-on-wooden-cube-blocks-on-gray-background.jpg?s=612x612&w=is&k=20&c=CTXXJ826K9wgv1PEe3am25CXbS71I18BCd3AguezQ-E="
@@ -193,7 +193,9 @@
                     <i class="fas fa-chevron-circle-right slide-next"></i>
                 </div>
             </div>
-            <ul class="class-list">
+            <!-- HTML5 에서는 data-변수이름=변수값 -->
+            <!-- data-position=0 ==> 몇번째 아이템부터 보이는지 -->
+            <ul class="class-list" data-position="0">
                 <li class="class-card">
                     <a href="" target="_blank">
                         <img src="https://cdn.pixabay.com/photo/2017/06/07/01/51/ready-2379042_1280.jpg"
@@ -278,6 +280,72 @@
         </div>
     </div>
 </section>
+<section>
+    <div class="inner">
+        <div class="roadmap-container">
+            <div class="roadmap-title-container">
+                <div class="roadmap-title">Spring<span class="roadmap-desc"> (backend master)</span></div>
+                <div class="arrow-container">
+                    <i class="fas fa-chevron-circle-left slide-prev"></i>
+                    <i class="fas fa-chevron-circle-right slide-next"></i>
+                </div>
+            </div>
+            <!-- HTML5 에서는 data-변수이름=변수값 -->
+            <!-- data-position=0 ==> 몇번째 아이템부터 보이는지 -->
+            <ul class="class-list" data-position="0">
+
+                <li class="class-card">
+                    <a href="" target="_blank">
+                        <img src="https://cdn.pixabay.com/photo/2017/06/07/01/51/ready-2379042_1280.jpg"
+                            alt="HC Lecture" class="class-image" />
+                        <div class="class-container">
+                            <div class="class-skill">
+                                <div class="class-type">Database</div>
+                                <div class="class-format">Online</div>
+                            </div>
+                            <div class="class-desc">
+                                <div class="class-title">SQL/DB(MySQL)</div>
+                                <div class="class-detail">Database fundamentals for handling data</div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="class-card">
+                    <a href="" target="_blank">
+                        <img src="https://cdn.pixabay.com/photo/2017/06/07/01/51/ready-2379042_1280.jpg"
+                            alt="HC Lecture" class="class-image" />
+                        <div class="class-container">
+                            <div class="class-skill">
+                                <div class="class-type">Java</div>
+                                <div class="class-format">Online</div>
+                            </div>
+                            <div class="class-desc">
+                                <div class="class-title">Introduction to Java</div>
+                                <div class="class-detail">Programming with Java</div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="class-card">
+                    <a href="" target="_blank">
+                        <img src="https://cdn.pixabay.com/photo/2017/06/07/01/51/ready-2379042_1280.jpg"
+                            alt="HC Lecture" class="class-image" />
+                        <div class="class-container">
+                            <div class="class-skill">
+                                <div class="class-type">Spring</div>
+                                <div class="class-format">Online</div>
+                            </div>
+                            <div class="class-desc">
+                                <div class="class-title">First-time Spring</div>
+                                <div class="class-detail">Spring for beginners</div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
 <!-- footer 를 넣을 예정-->
 <footer>
     <div class="inner">
@@ -286,7 +354,7 @@
         <div class="footer-copyright">Copyright 2023 © All rights reserved.</div>
     </div>
 </footer>
-<a id="backtotop" class="show"></a>
+<a id="backtotop"></a>
 <script src="js/main.js"></script>
 </body>
 

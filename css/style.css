@@ -95,7 +95,7 @@ section {
 .main {
   height: 360px;
   /* fix image */
-  background-image: url("https://www.fun-coding.org/assets_lms/images/photodune-4161018-group-of-students-m.jpg");
+  background-image: url("https://cdn.pixabay.com/photo/2016/12/28/09/36/web-1935737_640.png");
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 1;
@@ -369,6 +369,11 @@ footer {
   /* line-height를 height와 같은 크기로 놓으면 중간에 위치한다 아이템이 */
   line-height: 40px;
   color: #fff;
+}
+
+#backtotop.show:hover {
+  cursor: pointer;
+  background-color: red;
 }
 
 #backtotop.show {
